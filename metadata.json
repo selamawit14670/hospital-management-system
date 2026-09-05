@@ -1,0 +1,6 @@
+{
+  "name": "MediCare Hospital Management System",
+  "description": "A professional hospital management platform that digitally manages patients, appointments, doctors, medical records, prescriptions, billing, inventory, and digital patient cards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

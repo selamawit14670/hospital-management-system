@@ -1,0 +1,22 @@
+// MediCare Hospital Management System
+// Prisma Schema for PostgreSQL
+// Prepared for upcoming clinical data modeling phases
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// Foundation Enums & Models will be populated in subsequent steps:
+// - User & Auth (Doctors, Nurses, Administrators, Cashiers)
+// - Patient Registry & Digital Medical Cards (QR code hashes, blood type, emergency contacts)
+// - Doctor Profiles & Specializations
+// - Department & Wards
+// - Appointments & Triage status
+// - Medical Records, Prescriptions, Diagnostic Labs
+// - Billing, Invoices & Insurance Claims
+// - Pharmacy Inventory & Supplies
